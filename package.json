@@ -1,10 +1,21 @@
 {
-  "name": "extension-track-dom",
+  "name": "dom-observer-with-dynamic-selector-chrome-extension",
   "version": "1.0.0",
-  "description": "",
-  "author": "",
-  "license": "ISC",
-  "keywords": [],
+  "description": "A Chrome extension that tracks changes in a user-defined DOM element and plays a beep sound when a specified threshold condition is met.",
+  "author": "Skippia",
+  "license": "MIT",
+  "keywords": [
+    "chrome-extension",
+    "dom",
+    "observer",
+    "mutation-observer",
+    "beep",
+    "visual-alert",
+    "dynamic-selector",
+    "dynamic-threshold",
+    "web-monitoring",
+    "javascript"
+  ],
   "main": "content.js",
   "scripts": {
     "lint": "npx eslint .",
