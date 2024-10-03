@@ -1,4 +1,4 @@
-## DOM Observer with Dynamic Selector
+## DOM Observer with Dynamic Selector By Dynamic Threshold
 An chrome extension that tracks changes in a user-defined DOM element on a webpage and plays a beep sound when a specified threshold condition is met.
 
 ### Features
