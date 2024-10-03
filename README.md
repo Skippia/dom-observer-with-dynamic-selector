@@ -11,7 +11,7 @@ An chrome extension that tracks changes in a user-defined DOM element on a webpa
 Clone or Download the Repository:
 
 ```bash
-git clone git@github.com:Skippia/dom-observer-with-dynamic-selector-chrome-extension.git
+git clone git@github.com:Skippia/dynamic-dom-observer-chrome-extension.git
 ```
 
 ### Load the Extension in Chrome:
