@@ -1,0 +1,24 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { min-width: 200px; padding: 10px; font-family: Arial, sans-serif; }
+    input[type="text"] { width: 100%; box-sizing: border-box; padding: 5px; }
+    button { margin-top: 10px; width: 100%; padding: 5px; }
+  </style>
+</head>
+<body>
+  <h3>Set Target Selector</h3>
+  <input type="text" id="selectorInput" placeholder="Enter CSS Selector">
+  <input type="text" id="selectorThreshold" placeholder="Enter minimal threshold">
+  <button id="setSelectorBtn">Set Selector</button>
+  <button id="setThresholdBtn">Set Threshold</button>
+  <button id="stopBtn">Stop</button>
+  <p id="status"></p>
+
+  <script src="helpers.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
+

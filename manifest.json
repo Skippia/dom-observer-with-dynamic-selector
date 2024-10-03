@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "DOM Observer with Dynamic Selector",
+  "version": "1.1",
+  "description": "Tracks changes in a user-defined DOM element and plays a beep on update by threshold.",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Set Target Selector"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["helpers.js", "content.js"]
+    }
+  ]
+}
